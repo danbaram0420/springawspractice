@@ -3,7 +3,7 @@ services:
 
   web:
     container_name: web
-    image: danbaram/practice
+    image: danbaram/springboot-test
     expose:
       - 8080
     ports:
