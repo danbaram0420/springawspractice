@@ -44,7 +44,6 @@ jobs:
         key: ${{ secrets.KEY }}
         port: 22
         username: ubuntu
-        password: ${{ secrets.UBUNTU_PWD }}
         script: |
           sudo docker rm -f $(docker ps -qa)
           sudo docker pull ${{ secrets.DOCKER_ID }}/springboot-test
