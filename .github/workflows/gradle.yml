@@ -46,4 +46,3 @@ jobs:
         username: ubuntu
         script: |
           whoami
-          whoami
